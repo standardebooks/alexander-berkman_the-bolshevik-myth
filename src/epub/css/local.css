@@ -71,6 +71,6 @@ footer{
 	margin-bottom: 1em;
 }
 
-#chapter-38 blockquote > p:last-child{
+#chapter-38 blockquote:first-of-type > p:last-child{
 	text-indent: 0;
 }
