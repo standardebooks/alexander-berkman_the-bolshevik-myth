@@ -28,7 +28,6 @@ header p + p{
 	text-align: right;
 }
 
-
 [epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
@@ -44,6 +43,12 @@ header p + p{
 [epub|type~="z3998:signature"]{
 	font-style: normal;
 	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
 }
 /* End letters */
 
@@ -73,4 +78,12 @@ footer{
 
 #chapter-38 blockquote:first-of-type > p:last-child{
 	text-indent: 0;
+}
+
+#chapter-39 blockquote > footer:last-child{
+	text-align: initial;
+}
+
+#chapter-39 ol:last-child{
+	list-style-type: lower-alpha;
 }
