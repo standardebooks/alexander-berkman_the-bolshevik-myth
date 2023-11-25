@@ -61,6 +61,11 @@ footer{
 	font-variant: all-small-caps;
 }
 
+/* Used for spaces between diary entries, document signature sections */
+div + div{
+	margin-top: 1em;
+}
+
 #chapter-1 header [epub|type~="se:diary.dateline"]{
 	font-variant: small-caps;
 	text-align: initial;
@@ -74,10 +79,6 @@ footer{
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
-}
-
-#chapter-38 div footer{
-	margin-bottom: 1em;
 }
 
 #chapter-38 blockquote:first-of-type > p:last-child{
