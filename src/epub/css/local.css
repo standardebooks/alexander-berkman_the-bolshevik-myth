@@ -57,13 +57,13 @@ footer{
 	text-align: right;
 }
 
-[epub|type~="se:diary.dateline"]{
-	font-variant: small-caps;
-	text-align: initial;
-}
-
 [epub|type~="z3998:acronym"]{
 	font-variant: all-small-caps;
+}
+
+#chapter-1 header [epub|type~="se:diary.dateline"]{
+	font-variant: small-caps;
+	text-align: initial;
 }
 
 #chapter-1 header + p{
