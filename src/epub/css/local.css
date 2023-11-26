@@ -81,10 +81,6 @@ div + div{
 	text-align: center;
 }
 
-#chapter-38 blockquote:first-of-type > p:last-child{
-	text-indent: 0;
-}
-
 #chapter-39 blockquote > footer:last-child{
 	text-align: initial;
 }
