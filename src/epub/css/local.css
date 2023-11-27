@@ -16,18 +16,9 @@
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
-
-[epub|type~="z3998:verse"] p + p,
-header p + p{
-	margin-top: 1em;
-}
 /* End verse */
 
 /* Begin letters */
-[epub|type~="z3998:letter"] header{
-	text-align: right;
-}
-
 [epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
@@ -63,6 +54,10 @@ footer{
 
 /* Used for spaces between diary entries, document signature sections */
 div + div{
+	margin-top: 1em;
+}
+
+header p + p{
 	margin-top: 1em;
 }
 
