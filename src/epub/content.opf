@@ -38,7 +38,7 @@
 		<dc:subject id="subject-1">Communism</dc:subject>
 		<dc:subject id="subject-2">Communism--Soviet Union</dc:subject>
 		<dc:subject id="subject-3">Soviet Union--Description and travel</dc:subject>
-		<dc:subject id="subject-3">Soviet Union--Economic conditions--1917-1945</dc:subject>
+		<dc:subject id="subject-4">Soviet Union--Economic conditions--1917-1945</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85029120</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
