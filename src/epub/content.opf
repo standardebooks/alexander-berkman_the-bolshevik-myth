@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Bolshevik Myth: Diary 1920–1922</dc:title>
 		<meta property="file-as" refines="#fulltitle">Bolshevik Myth, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Communism</dc:subject>
 		<dc:subject id="subject-2">Communism--Soviet Union</dc:subject>
 		<dc:subject id="subject-3">Soviet Union--Description and travel</dc:subject>
